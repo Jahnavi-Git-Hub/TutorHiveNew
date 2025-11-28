@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server'
 import prisma from '@/lib/prisma'
 
+export const dynamic = 'force-dynamic'
+
 // This endpoint generates session reminder notifications
 // Should be called periodically (e.g., via cron job or scheduled task)
 export async function POST(request) {
