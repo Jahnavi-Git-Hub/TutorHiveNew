@@ -2,6 +2,8 @@ import { NextResponse } from "next/server"
 import { cookies } from "next/headers"
 import prisma from "@/lib/prisma"
 
+export const dynamic = 'force-dynamic'
+
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 const DEFAULT_GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile"
