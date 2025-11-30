@@ -19,7 +19,7 @@ Technology Stack:
 - **Database**: Supabase (PostgreSQL), Supabase Storage
 - **AI**: Groq API (Llama 3.3 70b Model)
 
-## Project deploy at : https://tutor-hive.vercel.app/
+## Project deploy at : https://tutor-hive-new.vercel.app/
 
 ## Team Members
 
