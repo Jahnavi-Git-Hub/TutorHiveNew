@@ -16,10 +16,10 @@ Phase Focus: Full Stack Development (Frontend + Backend + AI) Duration: Phases 1
 Technology Stack:
 - **Frontend**: Next.js 14, React 18, Tailwind CSS 4, Radix UI
 - **Backend**: Node.js, Express, Supabase Edge Functions
-- **Database**: Supabase (PostgreSQL), Supabase Storage
+- **Database**: Neon (PostgreSQL), AWS
 - **AI**: Groq API (Llama 3.3 70b Model)
 
-## Project deploy at : https://tutor-hive-new.vercel.app/
+## Project deploy at : https://tutor-hive-new.vercel.app
 
 ## Team Members
 
@@ -78,15 +78,13 @@ https://github.com/Jahnavi-Git-Hub/TutorHive
 - **Lucide React** - Icon library
 - **Recharts** - Data visualization
 - **React Hook Form** - Form management
-- **Zod** - Schema validation
-- **GPT-5 Model** - AI-assisted code generation and optimization
 
 ### Backend & Database
-- **Platform**: Supabase (BaaS)
+- **Platform**: Neon
 - **Database**: PostgreSQL
 - **Security**: RLS (Row Level Security) Policies
-- **Compute**: Supabase Edge Functions (Deno/Node.js)
-- **Storage**: Supabase Storage Buckets
+- **Compute**:  Node.js
+- **Storage**:  AWS
 
 ### AI Stack
 - **Provider**: Groq Cloud API
@@ -109,7 +107,7 @@ https://github.com/Jahnavi-Git-Hub/TutorHive
 - **ESLint** - Code linting
 - **PostCSS** - CSS processing
 - **Autoprefixer** - CSS vendor prefixing
-- **GPT-5 Model** - AI-assisted development and code optimization
+- **Groq Model** - AI-assisted development and code optimization
 
 ### AI-Assisted Development Areas
 - **Project Scaffolding**: AI-generated project structure and configuration
@@ -314,10 +312,8 @@ Built with Radix UI primitives for accessibility and consistency:
 ## Features in Detail
 
 ### AI Integration
-- **Study Recommendations**: AI-powered personalized study suggestions
-- **Progress Analysis**: Intelligent tracking of learning progress
+- **Study Plan Generator**: AI-powered personalized study plans
 - **Chat Assistant**: Real-time AI assistance for students
-- **Smart Matching**: Algorithm-based tutor-student matching
 
 ### Session Management
 - **Calendar Integration**: Visual scheduling interface
@@ -348,20 +344,20 @@ Built with Radix UI primitives for accessibility and consistency:
 
 ### 3. **User Interface Pages (20+ Pages)**
 - **Landing Page**: Modern hero section with features showcase
-- **Authentication**: Login/Register with role-based access (Student/Tutor). Secure Email/Password and OAuth flows via Supabase Auth.
+- **Authentication**: Login/Register with role-based access (Student/Tutor). Secure Email/Password and OAuth flows via Neon.
 - **Student Dashboard**: Comprehensive student interface with quick actions
 - **Tutor Dashboard**: Specialized tutor interface and management. Visual progress tracking and session history.
 - **Session Management**: Booking, calendar, and session tracking
 - **Study Plans**: Create, view, and manage personalized study plans
 - **Task Management**: Task creation, tracking, and completion
-- **AI Assistant**: Interactive AI chat and recommendations
+- **AI Assistant**: Interactive AI chat and study plans
 - **Tutor Discovery**: Browse and find tutors with ranking system. Advanced filtering and full-text search for tutors.
 - **Profile Management**: User profiles and settings
 - **Messaging System**: Inbox and communication interface
 
 ### 4. **Advanced Features Implementation**
 - **AI Chat Widget**: Floating AI assistant with real-time chat
-- **AI Recommendations**: Intelligent study recommendations system
+- **AI Plan Generator**: Intelligent study recommendations system
 - **Calendar Integration**: Session booking and scheduling interface
 - **Progress Tracking**: Visual progress indicators and analytics
 - **Real-time Updates**: Dynamic content updates and notifications
@@ -377,8 +373,6 @@ Built with Radix UI primitives for accessibility and consistency:
 - **Groq & Llama 3.3**: High-performance AI integration using the Llama 3.3 70b model via
 Groq.
 - **Contextual Chat**: AI assistant maintains conversation context for tutoring help.
-- **Smart Recommendations**: Algorithm matching students with tutors based on subject
-and availability.
 
 ### 6. Robust Backend Infrastructure
 - **Supabase Integration**: Fully managed PostgreSQL database with Row Level Security
@@ -448,7 +442,7 @@ and availability.
 ### **Student Experience**
 - **Intuitive Dashboard**: Quick access to all features
 - **Easy Session Booking**: Simple calendar-based booking
-- **AI-Powered Learning**: Smart recommendations and assistance
+- **AI-Powered Learning**: Smart assistance and study plans
 - **Progress Tracking**: Visual progress indicators
 - **Study Plan Management**: Create and follow personalized plans
 
@@ -474,10 +468,10 @@ and availability.
 - **Component-First**: Built reusable components before pages
 - **Mobile-First**: Responsive design starting from mobile
 - **Accessibility-First**: Built with accessibility in mind
-- **AI-Assisted Development**: Leveraged GPT-5 model for efficient code generation and optimization
+- **AI-Assisted Development**: Leveraged Groq model for efficient code generation and optimization
 
 ### **AI-Assisted Development Process**
-- **GPT-5 Integration**: Utilized GPT-5 model for intelligent code generation and optimization
+- **GPT-5 Integration**: Utilized Groq model for intelligent code generation and optimization
 - **Code Generation**: AI-assisted creation of complex components and functionality
 - **Code Optimization**: AI-powered code refactoring and performance improvements
 - **Best Practices**: AI guidance for following React and Next.js best practices
@@ -638,7 +632,7 @@ frontend and backend.
 - **State Management**: Implemented React state management for complex interactions
 - **AI Integration**: Designed AI-powered features and chat interfaces
 - **User Experience**: Focused on intuitive AI interactions and recommendations
-- **AI-Assisted Scaffolding**: Used GPT-5 for rapid component generation and project structure
+- **AI-Assisted Scaffolding**: Used Groq for rapid component generation and project structure
 - **AI-Powered Styling**: Leveraged AI for Tailwind CSS class generation and responsive design
 - **AI Testing Strategies**: Implemented AI-generated testing approaches for component validation
 - **Real-time Features**: Implemented Supabase Realtime for live chat and session updates.
@@ -656,10 +650,10 @@ backend APIs.
 - **User Testing**: Conducted usability testing and feedback collection
 - **Bug Reporting**: Identified and documented issues for resolution
 - **Accessibility Testing**: Ensured WCAG compliance and accessibility standards
-- **AI-Generated Test Cases**: Utilized GPT-5 for comprehensive test case generation
+- **AI-Generated Test Cases**: Utilized Groq for comprehensive test case generation
 - **AI-Assisted Testing Strategies**: Implemented AI-recommended testing methodologies
 - **AI Documentation**: Used AI assistance for technical documentation and guides
-- **API Testing**: Conducted comprehensive testing of all Supabase endpoints and RLS
+- **API Testing**: Conducted comprehensive testing of all Neon andd AWS endpoints and RLS
 policies.
 - **E2E Testing**: Performed full End-to-End user journey tests (SignUp -> Search -> Book ->
 Chat).
@@ -678,7 +672,7 @@ Supabase tables.
 - **Visual Components**: Designed custom icons, layouts, and visual elements
 - **Theme System**: Implemented dark/light mode theming system
 - **Accessibility Design**: Ensured inclusive design principles and accessibility
-- **AI-Enhanced Design System**: Used GPT-5 for color palette optimization and typography selection
+- **AI-Enhanced Design System**: Used Groq for color palette optimization and typography selection
 - **AI-Generated CSS**: Leveraged AI for complex CSS animations and responsive breakpoints
 - **AI Design Patterns**: Implemented AI-recommended design patterns and user experience flows
 - **Admin/Feedback UI**: Designed toast notifications and feedback loops for API actions.
@@ -698,10 +692,10 @@ matching).
 - **Data Flow Design**: Designed data flow between frontend and backend systems
 - **API Implementation**: Built CRUD endpoints for Sessions, Tasks, and Profiles.
 - **Performance Optimization**: Focused on frontend performance and optimization
-- **AI Project Management**: Used GPT-5 for sprint planning and task breakdown
+- **AI Project Management**: Used Groq for sprint planning and task breakdown
 - **AI Performance Analysis**: Leveraged AI for frontend performance optimization strategies
 - **AI Integration Planning**: Utilized AI assistance for API integration architecture design
-- **Storage Configuration**: Configured Supabase Storage buckets for secure user avatar
+- **Storage Configuration**: Configured AWS and Neon for secure user avatar
 and document uploads.
 
 ## Team Achievements
